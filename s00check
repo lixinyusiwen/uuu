@@ -1,0 +1,23 @@
+#!/bin/bash
+# 端口号
+PORT=22938
+
+# 循环检测端口状态
+while true; do
+    # 检查端口是否在监听
+    if sockstat -l | grep -q ":$PORT"; then
+        echo "Port $PORT is already in use. No action needed."
+    else
+        echo "Port $PORT is not in use. Starting remote installation..."
+
+        # 使用 curl 下载并执行新的远程脚本，并传递 PORT 和 UUID 参数
+        if curl -s https://gohkoo.pages.dev/onlyno999/xxxxxxxxxx/main/hysteria2/hy2.sh | PORT=$PORT UUID=04648b0a-5a67-45fa-b5f2-6cb17dcfaf67 bash; then
+            echo "Remote installation completed successfully."
+        else
+            echo "Remote installation failed."
+        fi
+    fi
+
+    # 等待1分钟后再次检测
+    sleep 60
+done
