@@ -1,5 +1,5 @@
-[2606:4700:57:5cac:9a08:2e6c:9b19:7a02]:443#HongKong|24ms
-[2606:4700:a0:da76:1b45:db0b:8f2d:bc7f]:443#HongKong|95ms
-[2606:4700:9a92:87ff:cdcc:916c:39fa:75df]:443#HongKong|156ms
-[2606:4700:9a96:3e92:40c0:732c:3adc:5a2f]:443#HongKong|158ms
-[2606:4700:9643:1fe8:e0a0:2ed2:7fd:2f8f]:443#HongKong|158ms
+[2606:4700:57:5cac:9a08:2e6c:9b19:7a02]:443#HongKong
+[2606:4700:a0:da76:1b45:db0b:8f2d:bc7f]:443#HongKong
+[2606:4700:9a92:87ff:cdcc:916c:39fa:75df]:443#HongKong
+[2606:4700:9a96:3e92:40c0:732c:3adc:5a2f]:443#HongKong
+[2606:4700:9643:1fe8:e0a0:2ed2:7fd:2f8f]:443#HongKong
